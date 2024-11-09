@@ -1,0 +1,496 @@
+html , body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/bg-img.png);
+    background-size: cover; 
+    background-position: center;   
+    background-repeat: no-repeat;
+    
+    }
+
+li{
+    list-style: none;
+}
+
+.narbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 40px;
+    font-size: large;
+    font-family:'Roboto' , sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    
+}
+
+
+.nar-section > nav > ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 15px;
+    margin-right: 45px;
+
+}
+
+.main-lbg > img{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+
+
+.hero-img > img{
+    display: flex;
+    height: 315px;
+    width: 400px;
+    align-items: center;
+  
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Playfair Display' , serif;
+    font-size: large;
+    margin-top: 150px;
+}
+
+ .section-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'lora';
+    font-size: larger;
+
+ }
+
+#myButton:hover{
+    color: palevioletred;
+    border-radius: 20px;
+    box-shadow: 20px;
+    
+}
+
+#myButton{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 30px;
+    font-family: 'Poppins' , serif;
+}
+       
+
+.first > p {
+    text-align: center;
+}
+
+.s-paragraph > p , .two > p{
+    text-align: center;
+}
+
+#me , p{
+    font-family: 'lora' , serif;
+}
+
+.first > .intro{
+    font-size: larger;
+    font-family: 'Poppins' , serif;
+}
+
+.intro-name{
+    font-size: larger;
+    font-family:'Poppins' ;
+    text-align: center;
+    padding-top: -10px;
+}
+
+
+
+
+
+
+.contact{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Poppins' , serif;
+    align-items: baseline;
+    margin-top: 100px;
+
+}
+
+
+
+.contact > ul> li > img{
+    width: 400px;
+    height: 200px;
+}
+
+
+.contact > ul> li > p{
+font-family: 'Poppins' , serif;
+
+}
+
+.skill-heading > h1{
+    text-align: center;
+    margin-top: 50px;
+    justify-items: center;
+    align-items: center;
+}
+
+.skill-heading{
+    padding-top: 60px;
+    justify-items: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+
+#myskillButton:hover{
+    color: palevioletred;
+    border-radius: 20px;
+    box-shadow: 20px;
+
+}
+
+#homeButton:hover{
+    color: palevioletred;
+    border-radius: 25px;
+    box-shadow: 20px;
+}
+
+.contact-button{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#myskillButton{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 0px;
+    margin-right: 15px;
+    font-family: 'Poppins' , serif;
+
+}
+
+#homeButton{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 0px;
+    margin-right: 15px;
+    font-family: 'Poppins' , serif;
+
+}
+
+
+.skill-heading{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.skill-list{
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    padding-right: 30px;
+}
+
+.skill-list > ul >li{
+    padding-right: 35px;
+    column-gap: 10px;
+}
+
+ .whatsapp > ul> li > img{
+    width: 30px;
+    height: 30px;
+}
+
+.tele > ul> li > img{
+    width: 20px;
+    height: 15px;
+
+}
+
+.mail > ul> li > img{
+    width: 20px;
+    height: 15px;
+
+}
+
+.contact-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-contact-con{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+
+    
+
+/* Extra Small Devices (max-width: 575px) */
+@media(min-width: 320px) and (max-width: 575px)  {
+    .narbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 40px;
+        font-size: 9px;
+        font-family:'Roboto' , sans-serif;
+    }
+    
+    
+    .nar-section > nav > ul{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-left: 15px;
+        margin-right: 45px;
+    
+    }
+    
+    .main-lbg > img{
+        height: 25px;
+        width: 25px;
+        margin-top: 5px;
+        margin-left: 50px;
+    }
+    
+    
+    .hero-img > img{
+        display: flex;
+        height: 95px;
+        width: 200px;
+        align-items: center;
+      
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: 'Playfair Display' , serif;
+        font-size: 5px;
+        margin-top: 80px;
+    }
+    
+     .section-two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'lora';
+        font-size: 10px;
+    
+     }
+    
+    #myButton:hover{
+        color: palevioletred;
+        border-radius: 20px;
+        box-shadow: 20px;
+        
+    }
+    
+    #myButton{
+        width: 100px;
+        height: 50px;
+        border-radius: 20px;
+        cursor: pointer;
+        align-items: center;
+        margin-top: 30px;
+        font-family: 'Poppins' , serif;
+    }
+           
+    
+    .first > p {
+        text-align: center;
+    }
+    
+    .s-paragraph > p , .two > p{
+        text-align: center;
+    }
+    
+    #me , p{
+        font-family: 'lora' , serif;
+    }
+    
+    .first > .intro{
+        font-size: larger;
+        font-family: 'Poppins' , serif;
+    }
+    
+    .intro-name{
+        font-size: larger;
+        font-family:'Poppins' ;
+        text-align: center;
+        padding-top: -10px;
+    }
+    
+    
+    
+    
+    
+    
+    .contact{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Poppins' , serif;
+        align-items: baseline;
+        margin-top: 100px;
+    
+    }
+    
+    
+    
+    .contact > ul> li > img{
+        width: 400px;
+        height: 200px;
+    }
+    
+    
+    .contact > ul> li > p{
+    font-family: 'Poppins' , serif;
+    
+    }
+    
+    .skill-heading > h1{
+        text-align: center;
+        margin-top: 50px;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .skill-heading{
+        padding-top: 60px;
+        justify-items: center;
+        align-items: center;
+        margin-right: 30px;
+    }
+    
+    
+    #myskillButton:hover{
+        color: palevioletred;
+        border-radius: 20px;
+        box-shadow: 20px;
+    
+    }
+    
+    #homeButton:hover{
+        color: palevioletred;
+        border-radius: 25px;
+        box-shadow: 20px;
+    }
+    
+    .contact-button{
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+    }
+    
+    #myskillButton{
+        width: 100px;
+        height: 50px;
+        border-radius: 20px;
+        cursor: pointer;
+        align-items: center;
+        margin-top: 0px;
+        margin-right: 15px;
+        font-family: 'Poppins' , serif;
+    
+    }
+    
+    #homeButton{
+        width: 100px;
+        height: 50px;
+        border-radius: 20px;
+        cursor: pointer;
+        align-items: center;
+        margin-top: 0px;
+        margin-right: 15px;
+        font-family: 'Poppins' , serif;
+    
+    }
+    
+    
+    .skill-heading{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    
+    .skill-list{
+        font-size: larger;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+        padding-right: 30px;
+    }
+    
+    .skill-list > ul >li{
+        padding-right: 35px;
+        column-gap: 10px;
+    }
+    
+     .whatsapp > ul> li > img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .tele > ul> li > img{
+        width: 20px;
+        height: 15px;
+    
+    }
+    
+    .mail > ul> li > img{
+        width: 20px;
+        height: 15px;
+    
+    }
+    
+    .contact-links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .main-contact-con{
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+    
+
+}
